@@ -1,0 +1,61 @@
+.headeslider{
+	margin-top: 30px;
+	
+}
+
+.headertext
+{
+	display: block;
+}
+
+.paymentmethod
+{
+	font-size: 100px;
+}
+.headerminitext
+{
+	font-size: 22px;
+	color: #635bff;
+}
+
+.boosttext
+{
+	font-size: 150px;
+	line-height: 150px;
+	color: white;
+	font-weight: bold;
+}
+
+.mainheading
+{
+	font-size: 100px; 
+	background: -webkit-linear-gradient(#c51473, #3910a3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; line-height: 80px;
+}
+
+.submainheading
+{
+	font-size: 35px; 
+	background: -webkit-linear-gradient(#c51473, #3910a3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  line-height: 35px;
+  margin-top: 40px;
+}
+
+
+@media screen and (max-width: 600px) {
+  
+  .headertext {
+    display: none;
+  }
+  
+.boosttext
+{
+	font-size: 70px;
+	line-height: 70px;
+}
+  
+
+}
